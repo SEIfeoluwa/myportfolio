@@ -9,9 +9,9 @@ export default function Contact() {
                 height="100%"
                 title="map"
                 className="absolute inset-0"
-                frameBorder={0}
-                marginHeight={0}
-                marginWidth={0}
+                // frameBorder={0}
+                // marginHeight={0}
+                // marginWidth={0}
                 style={{ filter: "opacity(0.7)" }}
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6204.101321084282!2d-76.8664100651123!3d38.9685112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c1a2998f46ed%3A0x91b4cd2845dff6f7!2sLanham%2C%20MD%2020706!5e0!3m2!1sen!2sus!4v1653301789343!5m2!1sen!2sus"
             />
@@ -40,8 +40,7 @@ export default function Contact() {
             </div>
             </div>
             <form
-            netlify={true}
-            // Error here ^^^^^^^^^^^
+            netlify="true"
             name="contact"
             className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
             <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
