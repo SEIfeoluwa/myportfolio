@@ -1,4 +1,4 @@
-
+import profilePic from '../assets/pfp.jpg';
 
 export default function About() {
 
@@ -28,10 +28,11 @@ export default function About() {
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
-              className="object-cover object-center rounded"
-              alt="hero"
-            //   src="https://s10.gifyu.com/images/Profile-pic2.jpg"
-              src="https://s10.gifyu.com/images/Old-me.jpg"
+              className="rounded-full object-cover"
+              alt="Ifeoluwa Adebisi"
+              // width="400"
+              // height="400"
+              src={profilePic}
             />
           </div>
         </div>
